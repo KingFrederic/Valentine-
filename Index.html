@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valentine?</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ffe6eb;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            text-align: center;
+        }
+        h1 {
+            color: #e6005c;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        #yes {
+            background-color: #ff4d79;
+            color: white;
+        }
+        #no {
+            background-color: #999;
+            color: white;
+            position: absolute;
+        }
+        #gif {
+            display: none;
+            margin-top: 20px;
+        }
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Will you be my Valentine? ❤️</h1>
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
+
+        <div id="gif">
+            <h2>You had no choice 😂💖</h2>
+            <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Funny Gif">
+        </div>
+    </div>
+
+    <script>
+        const noButton = document.getElementById("no");
+        const yesButton = document.getElementById("yes");
+        const gifDiv = document.getElementById("gif");
+
+        noButton.addEventListener("mouseover", () => {
+            const x = Math.random() * (window.innerWidth - 100);
+            const y = Math.random() * (window.innerHeight - 50);
+
+            noButton.style.left = x + "px";
+            noButton.style.top = y + "px";
+        });
+
+        yesButton.addEventListener("click", () => {
+            gifDiv.style.display = "block";
+        });
+    </script>
+</body>
+</html>
