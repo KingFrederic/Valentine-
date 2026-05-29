@@ -1,0 +1,12 @@
+{
+  "name": "Frédéric Idowu — Creative Director",
+  "short_name": "Frédéric Idowu",
+  "description": "Creative Director & Multimedia Strategist. Brand, film and communications that move continents.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05060A",
+  "theme_color": "#05060A",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

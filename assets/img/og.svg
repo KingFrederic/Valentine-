@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6D9A8"/><stop offset="1" stop-color="#C9A06A"/>
+    </linearGradient>
+    <radialGradient id="v" cx="20%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="100%" cy="100%" r="80%">
+      <stop offset="0" stop-color="#3DDCFF" stop-opacity="0.4"/><stop offset="1" stop-color="#3DDCFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#05060A"/>
+  <rect width="1200" height="630" fill="url(#v)"/>
+  <rect width="1200" height="630" fill="url(#c)"/>
+  <text x="80" y="150" font-family="Georgia, serif" font-size="26" fill="#E8C28A" letter-spacing="6">FRÉDÉRIC IDOWU</text>
+  <text x="76" y="300" font-family="Georgia, serif" font-size="96" font-weight="600" fill="#ECEEF6">I build brands</text>
+  <text x="76" y="400" font-family="Georgia, serif" font-size="96" font-weight="600" fill="url(#g)">that move continents.</text>
+  <text x="80" y="520" font-family="Helvetica, sans-serif" font-size="28" fill="#AEB4C7">Creative Director · Multimedia Strategist · Brand Architect</text>
+  <text x="80" y="565" font-family="Helvetica, sans-serif" font-size="22" fill="#7A8099">African Union · GIZ · Federal Ministry of Arts · Top Rated</text>
+</svg>
