@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://fredericidowu.vercel.app/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/work.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/contact.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=afritalent-bootcamp</loc><priority>0.6</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=reimagining-hope</loc><priority>0.6</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=sahel-sovereign</loc><priority>0.6</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=lagos-2040</loc><priority>0.6</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=terra-nova-summit</loc><priority>0.6</priority></url>
+  <url><loc>https://fredericidowu.vercel.app/project.html?id=vox-afrique</loc><priority>0.6</priority></url>
+</urlset>

@@ -1,0 +1,72 @@
+/* =============================================================================
+   Design tokens — the single source of visual truth.
+   A dark, editorial, glass-and-gold system built to read as expensive.
+============================================================================= */
+:root {
+  /* ---- core palette ---- */
+  --ink-900: #050609;          /* page base */
+  --ink-850: #0a0c12;
+  --ink-800: #0e111a;
+  --ink-700: #141826;
+  --ink-600: #1c2133;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.16);
+
+  /* ---- text ---- */
+  --text: #ECEEF6;
+  --text-soft: #AEB4C7;
+  --text-dim: #7A8099;
+  --text-faint: #51566b;
+
+  /* ---- accents ---- */
+  --gold: #E8C28A;             /* signature champagne gold */
+  --gold-bright: #F6D9A8;
+  --violet: #7C5CFF;
+  --cyan: #3DDCFF;
+  --mint: #9BE0C9;
+  --rose: #FF9EC2;
+
+  /* ---- glass ---- */
+  --glass-bg: rgba(255, 255, 255, 0.045);
+  --glass-bg-2: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-blur: 18px;
+  --glass-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.65);
+
+  /* ---- gradients ---- */
+  --grad-gold: linear-gradient(120deg, #F6D9A8 0%, #E8C28A 45%, #C9A06A 100%);
+  --grad-aurora: linear-gradient(120deg, #7C5CFF 0%, #3DDCFF 50%, #9BE0C9 100%);
+  --grad-ink: linear-gradient(180deg, rgba(5,6,9,0) 0%, var(--ink-900) 86%);
+
+  /* ---- type ---- */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Space Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.18em;
+
+  /* ---- spacing & shape ---- */
+  --radius-sm: 12px;
+  --radius: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 42px;
+  --maxw: 1240px;
+  --gutter: clamp(20px, 5vw, 64px);
+  --section-y: clamp(72px, 11vw, 168px);
+
+  /* ---- motion ---- */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur: 0.6s;
+
+  /* ---- fluid type scale ---- */
+  --fs-display: clamp(2.9rem, 9vw, 8.5rem);
+  --fs-h1: clamp(2.3rem, 6vw, 4.6rem);
+  --fs-h2: clamp(1.9rem, 4.4vw, 3.4rem);
+  --fs-h3: clamp(1.3rem, 2.4vw, 1.8rem);
+  --fs-lead: clamp(1.06rem, 1.8vw, 1.4rem);
+  --fs-body: 1.02rem;
+  --fs-small: 0.86rem;
+  --fs-eyebrow: 0.74rem;
+
+  --nav-h: 76px;
+}
